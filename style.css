@@ -1,0 +1,52 @@
+html {
+	background: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body {
+	background: #EDDDB5; 
+	color: black;
+	font: 20px/1.4em Helvetica, 'Trebuchet MS', Arial, sans-serif;
+	padding: 20px;
+	margin: 100px;
+}
+
+header {
+	font-size: 25px;
+	margin: 0 0 20px;
+	padding: 0 0 5px;
+	border-bottom: 2px solid #ccc;
+	color: #DD5F5F;
+}
+
+article {
+	display: none;
+	white-space: pre-wrap;
+}
+
+article:last-of-type {
+	display: block;
+}
+
+article:target ~ article:last-of-type {
+	display: none;
+}
+
+article:target {
+	display: block;
+}
+
+footer {
+	margin-top: 10px;
+	color: #ccc;
+	text-align: right;
+	font-size: x-small;
+}
+
+img {
+	cursor: pointer;
+	display: block;
+	width: 55px; height: 55px;
+	margin-top: 10px;
+}
