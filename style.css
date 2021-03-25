@@ -37,13 +37,6 @@ article:target {
 	display: block;
 }
 
-footer {
-	margin-top: 10px;
-	color: #ccc;
-	text-align: right;
-	font-size: x-small;
-}
-
 img {
 	cursor: pointer;
 	display: block;
